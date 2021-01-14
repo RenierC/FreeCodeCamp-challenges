@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product page</title>
+  </head>
+  <body id="home">
+    <header id="header">
+      <nav id="nav-bar">
+        <img src="/assets/logo.svg" id="header-img" alt="" />
+        <ul class="items">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about-us" class="nav-link">About</a></li>
+          <li><a href="#phone" class="nav-link">Phone</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="section-about">
+      <div id="about-us">
+        <div class="about-text">
+          <h1>The future of phones</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            deleniti autem libero quisquam incidunt, rem aspernatur fugiat
+            accusantium nemo sint eum hic officiis facilis delectus! Fuga eius
+            voluptates perferendis quo?
+          </p>
+          <a href="#phone" class="nav-link"><button>Learn More</button></a>
+          
+        </div>
+        <img src="/assets/phone.svg" alt="a phone made out of puzzles" />
+      </div>
+    </section>
+
+    <section id="section-phone">
+      <div id="phone" class="phone">
+        <iframe
+          id="video"
+          height="300"
+          src="https://www.youtube.com/embed/PQqudiUdGuo"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+          modi nostrum officia sint ipsa? Nostrum quo error voluptas, deleniti
+          iusto nihil impedit voluptates, architecto, sunt tempora illum
+          accusamus in quaerat.
+        </p>
+      </div>
+    </section>
+
+    <section id="form-section">
+      <div id="contact">
+        <h1>📧Get In Touch📧</h1>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <ul>
+            <li>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="example@email.com"
+              />
+            </li>
+            <li>
+              <input type="submit" value="Submit" id="submit">
+              <!-- <button>Submit</button> -->
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>🦦Coded by Re ©🦦</p>
+    </footer>
+  </body>
+</html>
