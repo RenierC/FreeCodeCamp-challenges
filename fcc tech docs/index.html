@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tech Docs</title>
+  </head>
+  <body>
+    <span class="hamburger">
+      <a href="#" onclick="openMenu()">
+        <svg width="30" height="30">
+          <path d="M0,5 30,5" stroke="black" stroke-width="5" />
+          <path d="M0,14 30,14" stroke="black" stroke-width="5" />
+          <path d="M0,23 30,23" stroke="black" stroke-width="5" />
+        </svg>
+      </a>
+    </span>
+
+    <nav id="navbar">
+      <a href="#" id="close" onclick="closeMenu()">&times;</a>
+      <header>
+        <h1>Basic Programming</h1>
+      </header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Sintax">Sintax</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Variables">Variables</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Conditionals">Conditionals</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Functions">Functions</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header><h1>Introduction</h1></header>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          necessitatibus voluptatem, porro dolore culpa modi! Consectetur quam
+          fugiat similique eum ipsam dolore, dolorum consequuntur cumque esse
+          quos excepturi, ipsum consequatur.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          necessitatibus voluptatem, porro dolore culpa modi! Consectetur quam
+          fugiat similique eum ipsam dolore, dolorum consequuntur cumque esse
+          quos excepturi, ipsum consequatur.
+        </p>
+        <ul>
+          <li>This is a list item</li>
+          <li>This is another list item</li>
+        </ul>
+        <code>const hello = (name) => console.log(`Hello ${name}`);</code>
+      </section>
+
+      <section class="main-section" id="Sintax">
+        <header><h1>Sintax</h1></header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magni
+          fugit sed odio. Magnam necessitatibus ad asperiores libero totam
+          aspernatur voluptatibus. Placeat asperiores iusto magnam veritatis
+          eius ratione quibusdam doloribus.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+          provident, soluta minus beatae eveniet alias aliquid quidem nemo enim
+          reiciendis ab eaque harum velit repellat, porro natus distinctio
+          labore repellendus.
+        </p>
+        <ul>
+          <li>List item1</li>
+          <li>List item 2</li>
+        </ul>
+        <code>console.log('there is too much sintax for this');</code>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header><h1>Variables</h1></header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit officiis
+          cum enim, quidem id repudiandae est velit officia vero fugiat pariatur
+          error eum omnis nostrum sapiente deleniti placeat, modi impedit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, harum?
+          Maiores, dolor, culpa cum voluptate sequi beatae voluptatibus libero
+          laboriosam quae deserunt laborum, saepe maxime adipisci necessitatibus
+          dicta reiciendis voluptatem?
+        </p>
+        <ul>
+          <li>Another list item</li>
+          <li>Followed by another</li>
+        </ul>
+        <code>let variable = "I am a variable";</code>
+      </section>
+
+      <section class="main-section" id="Conditionals">
+        <header><h1>Conditionals</h1></header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit
+          illo quae, quod laborum harum nihil quaerat omnis repellat asperiores
+          ipsum? Consectetur blanditiis quis cum quidem quisquam maxime, ducimus
+          molestias.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta vero
+          sequi necessitatibus labore optio consequuntur qui omnis placeat
+          itaque minus quasi, a consectetur repellendus iste eum, fugit magnam
+          sapiente. Incidunt.
+        </p>
+        <ul>
+          <li>list item</li>
+          <li>List item</li>
+        </ul>
+        <code>return value ? true : false;</code>
+      </section>
+      <section class="main-section" id="Functions">
+        <header><h1>Functions</h1></header>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+          laboriosam modi, sunt eaque accusantium minima aliquam autem dolore
+          reiciendis consequatur quis magni unde at rerum quae pariatur,
+          quisquam vitae dolorem!
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
+          voluptatem eius reprehenderit eos ab assumenda itaque quas?
+          Voluptatum, dicta exercitationem similique quibusdam vel fugiat minima
+          atque nulla sit quasi iste!
+        </p>
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+        </ul>
+        <code>let reduced = (value) => value.reduce((a,b) a + b));</code>
+      </section>
+    </main>
+    <script>
+      function openMenu() {
+        document.getElementById("navbar").style.display = "block";
+      }
+      function closeMenu() {
+        document.getElementById("navbar").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

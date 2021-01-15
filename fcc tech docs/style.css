@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #edf2f4;
+  font-family: "Noto Sans", sans-serif, "Roboto", sans-serif;
+
+}
+
+#navbar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #2b2d42;
+  color: white;
+  box-shadow: 0 0 0 1.5px rgba(43, 45, 66, 0.5);
+
+}
+#navbar #close{
+display: none;
+}
+
+#navbar h1 {
+  padding-bottom: 1rem;
+}
+#navbar ul {
+  list-style-type: none;
+}
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+#navbar li {
+  margin: 1rem 0;
+}
+
+main {
+  margin-left: 14rem;
+  padding: 1rem 2rem;
+}
+
+p {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.main-section {
+  border-radius: 10px;
+  border-style: outset;
+  margin: 20px;
+  padding: 2rem;
+}
+
+.main-section ul {
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+}
+
+code {
+  background-color: rgba(239, 35, 60, 0.2);
+}
+
+@media (max-width: 500px) {
+  #navbar {
+    display: none;
+  }
+  #navbar #close{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  body{
+    margin: 2rem;
+  }
+
+  main {
+   margin: 1rem;    
+  }
+
+}
